@@ -25,7 +25,7 @@ public class AdminPage extends BaseTest {
 		driver.findElement(By.xpath("//div[@class='oxd-form-row']//div[1]//div[1]//div[1]//div[2]//input"))
 				.sendKeys("Garry.White");
 		driver.findElement(By.xpath(
-				"//button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space' and @type='submit']"))
+				"/html/body/div/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[2]/button[2]"))
 				.click();
 		driver.findElement(By.xpath("//i[@class='oxd-icon bi-pencil-fill']")).click();
 		driver.findElement(

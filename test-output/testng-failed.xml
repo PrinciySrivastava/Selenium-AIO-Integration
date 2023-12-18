@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Test(failed)">
+  <test thread-count="5" name=" Web Test(failed)">
+    <groups>
+      <run>
+        <include name="OPAA-TC-224"/>
+        <include name="OPAA-TC-225"/>
+        <include name="OPAA-TC-226"/>
+        <include name="OPAA-TC-227"/>
+        <include name="OPAA-TC-228"/>
+        <include name="OPAA-TC-240"/>
+        <include name="OPAA-TC-241"/>
+        <include name="OPAA-TC-242"/>
+      </run>
+    </groups>
     <classes>
       <class name="testcase.AdminPage">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
           <include name="searchSystemUsers"/>
-          <include name="openAdminPage"/>
         </methods>
       </class> <!-- testcase.AdminPage -->
     </classes>
-  </test> <!-- Test(failed) -->
+  </test> <!--  Web Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

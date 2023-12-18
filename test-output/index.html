@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Suite" class="navigator-link ">
-                    <span>7 groups</span>
+                    <span>8 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">7 methods, 2 failed,   5 passed</span>
+                    <span class="method-stats">8 methods, 1 failed,   7 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title failed">Failed methods</span>
@@ -101,11 +101,6 @@
                       <a href="#" panel-name="suite-Suite" class="show-methods failed suite-Suite"> (show)</a> <!-- show-methods failed suite-Suite -->
                     </span>
                     <div class="method-list-content failed suite-Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="testcase.AdminPage" class="method navigator-link" hash-for-method="openAdminPage">openAdminPage</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img src="failed.png" width="3%"/>
                         <a href="#" panel-name="suite-Suite" title="testcase.AdminPage" class="method navigator-link" hash-for-method="searchSystemUsers">searchSystemUsers</a> <!-- method navigator-link -->
@@ -145,6 +140,16 @@
                         <a href="#" panel-name="suite-Suite" title="testcase.LoginPage" class="method navigator-link" hash-for-method="loginWithoutUsername">loginWithoutUsername</a> <!-- method navigator-link -->
                       </span>
                       <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase.AdminPage" class="method navigator-link" hash-for-method="openAdminPage">openAdminPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="testcase.MyInfoPage" class="method navigator-link" hash-for-method="openMyInfoPage">openMyInfoPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
                   </li>
                 </ul>
@@ -165,49 +170,18 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="openAdminPage">
-                  </a> <!-- openAdminPage -->
-                  <span class="method-name">openAdminPage</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//a[@class=&apos;oxd-main-menu-item active&apos; and @href=&apos;/web/index.php/admin/viewAdminModule&apos;]&quot;}
-  (Session info: chrome=120.0.6099.109)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [20a8f3d13fd26f3aa00e153f38e286fc, findElement {using=xpath, value=//a[@class=&apos;oxd-main-menu-item active&apos; and @href=&apos;/web/index.php/admin/viewAdminModule&apos;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\PRINCI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65203/devtoo..., se:cdpVersion: 120.0.6099.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 20a8f3d13fd26f3aa00e153f38e286fc
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at testcase.AdminPage.openAdminPage(AdminPage.java:16)
-	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-... Removed 28 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="searchSystemUsers">
                   </a> <!-- searchSystemUsers -->
                   <span class="method-name">searchSystemUsers</span>
-                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[@class=&apos;oxd-form-row&apos;]//div[1]//div[1]//div[1]//div[2]//input&quot;}
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//i[@class=&apos;oxd-icon bi-pencil-fill&apos;]&quot;}
   (Session info: chrome=120.0.6099.109)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.15.0&apos;, revision: &apos;1d14b5521b&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [20a8f3d13fd26f3aa00e153f38e286fc, findElement {using=xpath, value=//div[@class=&apos;oxd-form-row&apos;]//div[1]//div[1]//div[1]//div[2]//input}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\PRINCI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65203/devtoo..., se:cdpVersion: 120.0.6099.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 20a8f3d13fd26f3aa00e153f38e286fc
+Command: [6ea72eca18a51cf75710b743864e7f05, findElement {using=xpath, value=//i[@class=&apos;oxd-icon bi-pencil-fill&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\PRINCI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51848}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51848/devtoo..., se:cdpVersion: 120.0.6099.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ea72eca18a51cf75710b743864e7f05
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
@@ -219,7 +193,7 @@ Session ID: 20a8f3d13fd26f3aa00e153f38e286fc
 	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-	at testcase.AdminPage.searchSystemUsers(AdminPage.java:26)
+	at testcase.AdminPage.searchSystemUsers(AdminPage.java:30)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
 ... Removed 28 stack frames
 </div> <!-- stack-trace -->
@@ -270,6 +244,36 @@ Session ID: 20a8f3d13fd26f3aa00e153f38e286fc
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcase.MyInfoPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openMyInfoPage">
+                  </a> <!-- openMyInfoPage -->
+                  <span class="method-name">openMyInfoPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">testcase.AdminPage</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="openAdminPage">
+                  </a> <!-- openAdminPage -->
+                  <span class="method-name">openAdminPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -280,13 +284,26 @@ Session ID: 20a8f3d13fd26f3aa00e153f38e286fc
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot; Web Test&quot;&gt;
+    &lt;groups&gt;
+      &lt;run&gt;
+        &lt;include name=&quot;OPAA-TC-224&quot;/&gt;
+        &lt;include name=&quot;OPAA-TC-225&quot;/&gt;
+        &lt;include name=&quot;OPAA-TC-226&quot;/&gt;
+        &lt;include name=&quot;OPAA-TC-227&quot;/&gt;
+        &lt;include name=&quot;OPAA-TC-228&quot;/&gt;
+        &lt;include name=&quot;OPAA-TC-240&quot;/&gt;
+        &lt;include name=&quot;OPAA-TC-241&quot;/&gt;
+        &lt;include name=&quot;OPAA-TC-242&quot;/&gt;
+      &lt;/run&gt;
+    &lt;/groups&gt;
     &lt;classes&gt;
       &lt;class name=&quot;base.BaseTest&quot;/&gt;
       &lt;class name=&quot;testcase.LoginPage&quot;/&gt;
       &lt;class name=&quot;testcase.AdminPage&quot;/&gt;
+      &lt;class name=&quot;testcase.MyInfoPage&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Test --&gt;
+  &lt;/test&gt; &lt;!--  Web Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -298,7 +315,7 @@ Session ID: 20a8f3d13fd26f3aa00e153f38e286fc
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Test (3 classes)</span>
+                <span class="test-name"> Web Test (4 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -364,6 +381,14 @@ Session ID: 20a8f3d13fd26f3aa00e153f38e286fc
                 <br/>
               </div> <!-- method-in-group -->
             </div> <!-- test-group -->
+            <div class="test-group">
+              <span class="test-group-name">OPAA-TC-242</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">openMyInfoPage</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="times-Suite" class="panel">
@@ -380,40 +405,44 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(7);
+data.addRows(8);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'forgotPasswordLink')
 data.setCell(0, 2, 'testcase.LoginPage')
-data.setCell(0, 3, 133457);
+data.setCell(0, 3, 133516);
 data.setCell(1, 0, 1)
 data.setCell(1, 1, 'searchSystemUsers')
 data.setCell(1, 2, 'testcase.AdminPage')
-data.setCell(1, 3, 60050);
+data.setCell(1, 3, 60715);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'openAdminPage')
-data.setCell(2, 2, 'testcase.AdminPage')
-data.setCell(2, 3, 60033);
+data.setCell(2, 1, 'login')
+data.setCell(2, 2, 'testcase.LoginPage')
+data.setCell(2, 3, 15350);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'login')
+data.setCell(3, 1, 'loginWithoutUsername')
 data.setCell(3, 2, 'testcase.LoginPage')
-data.setCell(3, 3, 15216);
+data.setCell(3, 3, 6533);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'loginWithoutUsername')
-data.setCell(4, 2, 'testcase.LoginPage')
-data.setCell(4, 3, 6560);
+data.setCell(4, 1, 'openAdminPage')
+data.setCell(4, 2, 'testcase.AdminPage')
+data.setCell(4, 3, 967);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'loginWithoutPassword')
-data.setCell(5, 2, 'testcase.LoginPage')
-data.setCell(5, 3, 451);
+data.setCell(5, 1, 'openMyInfoPage')
+data.setCell(5, 2, 'testcase.MyInfoPage')
+data.setCell(5, 3, 534);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'loginWithoutCredentials')
+data.setCell(6, 1, 'loginWithoutPassword')
 data.setCell(6, 2, 'testcase.LoginPage')
-data.setCell(6, 3, 91);
+data.setCell(6, 3, 493);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginWithoutCredentials')
+data.setCell(7, 2, 'testcase.LoginPage')
+data.setCell(7, 3, 91);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 4 minutes</span>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -428,7 +457,7 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">4 ignored methods</span>
+            <span class="header-content">6 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
@@ -441,11 +470,20 @@ return data;
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">testcase.AdminPage</span>
+              <span class="ignored-class-name">testcase.MyInfoPage</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">setUp</span>
                 <br/>
                 <span class="ignored-method-name">tearDown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">testcase.AdminPage</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">tearDown</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
@@ -467,45 +505,50 @@ return data;
               <div class="chronological-class-name">testcase.LoginPage</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginWithoutCredentials</span>
-                <span class="method-start">6089 ms</span>
+                <span class="method-start">5906 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginWithoutPassword</span>
-                <span class="method-start">6184 ms</span>
+                <span class="method-start">6001 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">loginWithoutUsername</span>
-                <span class="method-start">6637 ms</span>
+                <span class="method-start">6495 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">forgotPasswordLink</span>
-                <span class="method-start">13197 ms</span>
+                <span class="method-start">13028 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">login</span>
-                <span class="method-start">146656 ms</span>
+                <span class="method-start">146545 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">testcase.AdminPage</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">openAdminPage</span>
-                <span class="method-start">161873 ms</span>
+                <span class="method-start">161897 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">searchSystemUsers</span>
-                <span class="method-start">221906 ms</span>
+                <span class="method-start">162869 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">testcase.MyInfoPage</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">openMyInfoPage</span>
+                <span class="method-start">223584 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">base.BaseTest</div> <!-- chronological-class-name -->
               <div class="configuration-test after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">281956 ms</span>
+                <span class="method-start">224120 ms</span>
               </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

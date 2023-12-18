@@ -1,148 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="5" failed="2" skipped="0">
+<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-18T15:19:30 GMT" name="Suite" finished-at="2023-12-18T15:24:12 GMT" duration-ms="282232">
+  <suite started-at="2023-12-18T17:05:38 GMT" name="Suite" finished-at="2023-12-18T17:09:22 GMT" duration-ms="224368">
     <groups>
       <group name="OPAA-TC-228">
-        <method signature="LoginPage.forgotPasswordLink()[pri:4, instance:testcase.LoginPage@76505305]" name="forgotPasswordLink" class="testcase.LoginPage"/>
+        <method signature="LoginPage.forgotPasswordLink()[pri:4, instance:testcase.LoginPage@515c6049]" name="forgotPasswordLink" class="testcase.LoginPage"/>
       </group> <!-- OPAA-TC-228 -->
       <group name="OPAA-TC-227">
-        <method signature="LoginPage.login()[pri:5, instance:testcase.LoginPage@76505305]" name="login" class="testcase.LoginPage"/>
+        <method signature="LoginPage.login()[pri:5, instance:testcase.LoginPage@515c6049]" name="login" class="testcase.LoginPage"/>
       </group> <!-- OPAA-TC-227 -->
       <group name="OPAA-TC-226">
-        <method signature="LoginPage.loginWithoutUsername()[pri:3, instance:testcase.LoginPage@76505305]" name="loginWithoutUsername" class="testcase.LoginPage"/>
+        <method signature="LoginPage.loginWithoutUsername()[pri:3, instance:testcase.LoginPage@515c6049]" name="loginWithoutUsername" class="testcase.LoginPage"/>
       </group> <!-- OPAA-TC-226 -->
       <group name="OPAA-TC-225">
-        <method signature="LoginPage.loginWithoutPassword()[pri:2, instance:testcase.LoginPage@76505305]" name="loginWithoutPassword" class="testcase.LoginPage"/>
+        <method signature="LoginPage.loginWithoutPassword()[pri:2, instance:testcase.LoginPage@515c6049]" name="loginWithoutPassword" class="testcase.LoginPage"/>
       </group> <!-- OPAA-TC-225 -->
       <group name="OPAA-TC-224">
-        <method signature="LoginPage.loginWithoutCredentials()[pri:1, instance:testcase.LoginPage@76505305]" name="loginWithoutCredentials" class="testcase.LoginPage"/>
+        <method signature="LoginPage.loginWithoutCredentials()[pri:1, instance:testcase.LoginPage@515c6049]" name="loginWithoutCredentials" class="testcase.LoginPage"/>
       </group> <!-- OPAA-TC-224 -->
+      <group name="OPAA-TC-242">
+        <method signature="MyInfoPage.openMyInfoPage()[pri:1, instance:testcase.MyInfoPage@5fe94a96]" name="openMyInfoPage" class="testcase.MyInfoPage"/>
+      </group> <!-- OPAA-TC-242 -->
       <group name="OPAA-TC-241">
-        <method signature="AdminPage.searchSystemUsers()[pri:2, instance:testcase.AdminPage@14cd1699]" name="searchSystemUsers" class="testcase.AdminPage"/>
+        <method signature="AdminPage.searchSystemUsers()[pri:2, instance:testcase.AdminPage@639c2c1d]" name="searchSystemUsers" class="testcase.AdminPage"/>
       </group> <!-- OPAA-TC-241 -->
       <group name="OPAA-TC-240">
-        <method signature="AdminPage.openAdminPage()[pri:1, instance:testcase.AdminPage@14cd1699]" name="openAdminPage" class="testcase.AdminPage"/>
+        <method signature="AdminPage.openAdminPage()[pri:1, instance:testcase.AdminPage@639c2c1d]" name="openAdminPage" class="testcase.AdminPage"/>
       </group> <!-- OPAA-TC-240 -->
     </groups>
-    <test started-at="2023-12-18T15:19:30 GMT" name="Test" finished-at="2023-12-18T15:24:12 GMT" duration-ms="282232">
+    <test started-at="2023-12-18T17:05:38 GMT" name=" Web Test" finished-at="2023-12-18T17:09:22 GMT" duration-ms="224368">
       <class name="testcase.LoginPage">
-        <test-method signature="loginWithoutCredentials()[pri:1, instance:testcase.LoginPage@76505305]" started-at="2023-12-18T15:19:36 GMT" name="loginWithoutCredentials" finished-at="2023-12-18T15:19:36 GMT" duration-ms="91" status="PASS">
+        <test-method signature="loginWithoutCredentials()[pri:1, instance:testcase.LoginPage@515c6049]" started-at="2023-12-18T17:05:44 GMT" name="loginWithoutCredentials" finished-at="2023-12-18T17:05:44 GMT" duration-ms="91" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithoutCredentials -->
-        <test-method signature="loginWithoutPassword()[pri:2, instance:testcase.LoginPage@76505305]" started-at="2023-12-18T15:19:36 GMT" name="loginWithoutPassword" finished-at="2023-12-18T15:19:36 GMT" duration-ms="451" status="PASS">
+        <test-method signature="loginWithoutPassword()[pri:2, instance:testcase.LoginPage@515c6049]" started-at="2023-12-18T17:05:44 GMT" name="loginWithoutPassword" finished-at="2023-12-18T17:05:44 GMT" duration-ms="493" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithoutPassword -->
-        <test-method signature="loginWithoutUsername()[pri:3, instance:testcase.LoginPage@76505305]" started-at="2023-12-18T15:19:36 GMT" name="loginWithoutUsername" finished-at="2023-12-18T15:19:43 GMT" duration-ms="6560" status="PASS">
+        <test-method signature="loginWithoutUsername()[pri:3, instance:testcase.LoginPage@515c6049]" started-at="2023-12-18T17:05:44 GMT" name="loginWithoutUsername" finished-at="2023-12-18T17:05:51 GMT" duration-ms="6533" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithoutUsername -->
-        <test-method signature="forgotPasswordLink()[pri:4, instance:testcase.LoginPage@76505305]" started-at="2023-12-18T15:19:43 GMT" name="forgotPasswordLink" finished-at="2023-12-18T15:21:56 GMT" duration-ms="133457" status="PASS">
+        <test-method signature="forgotPasswordLink()[pri:4, instance:testcase.LoginPage@515c6049]" started-at="2023-12-18T17:05:51 GMT" name="forgotPasswordLink" finished-at="2023-12-18T17:08:04 GMT" duration-ms="133516" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPasswordLink -->
-        <test-method signature="login()[pri:5, instance:testcase.LoginPage@76505305]" started-at="2023-12-18T15:21:56 GMT" name="login" finished-at="2023-12-18T15:22:12 GMT" duration-ms="15216" status="PASS">
+        <test-method signature="login()[pri:5, instance:testcase.LoginPage@515c6049]" started-at="2023-12-18T17:08:04 GMT" name="login" finished-at="2023-12-18T17:08:20 GMT" duration-ms="15350" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- testcase.LoginPage -->
       <class name="testcase.AdminPage">
-        <test-method signature="openAdminPage()[pri:1, instance:testcase.AdminPage@14cd1699]" started-at="2023-12-18T15:22:12 GMT" name="openAdminPage" finished-at="2023-12-18T15:23:12 GMT" duration-ms="60033" status="FAIL">
-          <exception class="org.openqa.selenium.NoSuchElementException">
-            <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='oxd-main-menu-item active' and @href='/web/index.php/admin/viewAdminModule']"}
-  (Session info: chrome=120.0.6099.109)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [20a8f3d13fd26f3aa00e153f38e286fc, findElement {using=xpath, value=//a[@class='oxd-main-menu-item active' and @href='/web/index.php/admin/viewAdminModule']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\PRINCI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65203/devtoo..., se:cdpVersion: 120.0.6099.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 20a8f3d13fd26f3aa00e153f38e286fc]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@class='oxd-main-menu-item active' and @href='/web/index.php/admin/viewAdminModule']"}
-  (Session info: chrome=120.0.6099.109)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.15.0', revision: '1d14b5521b'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [20a8f3d13fd26f3aa00e153f38e286fc, findElement {using=xpath, value=//a[@class='oxd-main-menu-item active' and @href='/web/index.php/admin/viewAdminModule']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\PRINCI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65203/devtoo..., se:cdpVersion: 120.0.6099.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 20a8f3d13fd26f3aa00e153f38e286fc
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:607)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-at testcase.AdminPage.openAdminPage(AdminPage.java:16)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
-at org.testng.TestRunner.privateRun(TestRunner.java:848)
-at org.testng.TestRunner.run(TestRunner.java:621)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
-at org.testng.SuiteRunner.run(SuiteRunner.java:336)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1280)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1200)
-at org.testng.TestNG.runSuites(TestNG.java:1114)
-at org.testng.TestNG.run(TestNG.java:1082)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+        <test-method signature="openAdminPage()[pri:1, instance:testcase.AdminPage@639c2c1d]" started-at="2023-12-18T17:08:20 GMT" name="openAdminPage" finished-at="2023-12-18T17:08:21 GMT" duration-ms="967" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openAdminPage -->
-        <test-method signature="searchSystemUsers()[pri:2, instance:testcase.AdminPage@14cd1699]" started-at="2023-12-18T15:23:12 GMT" name="searchSystemUsers" finished-at="2023-12-18T15:24:12 GMT" duration-ms="60050" status="FAIL">
+        <test-method signature="searchSystemUsers()[pri:2, instance:testcase.AdminPage@639c2c1d]" started-at="2023-12-18T17:08:21 GMT" name="searchSystemUsers" finished-at="2023-12-18T17:09:21 GMT" duration-ms="60715" status="FAIL">
           <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-form-row']//div[1]//div[1]//div[1]//div[2]//input"}
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class='oxd-icon bi-pencil-fill']"}
   (Session info: chrome=120.0.6099.109)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [20a8f3d13fd26f3aa00e153f38e286fc, findElement {using=xpath, value=//div[@class='oxd-form-row']//div[1]//div[1]//div[1]//div[2]//input}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\PRINCI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65203/devtoo..., se:cdpVersion: 120.0.6099.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 20a8f3d13fd26f3aa00e153f38e286fc]]>
+Command: [6ea72eca18a51cf75710b743864e7f05, findElement {using=xpath, value=//i[@class='oxd-icon bi-pencil-fill']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\PRINCI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51848}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51848/devtoo..., se:cdpVersion: 120.0.6099.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ea72eca18a51cf75710b743864e7f05]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//div[@class='oxd-form-row']//div[1]//div[1]//div[1]//div[2]//input"}
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//i[@class='oxd-icon bi-pencil-fill']"}
   (Session info: chrome=120.0.6099.109)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.15.0', revision: '1d14b5521b'
 System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [20a8f3d13fd26f3aa00e153f38e286fc, findElement {using=xpath, value=//div[@class='oxd-form-row']//div[1]//div[1]//div[1]//div[2]//input}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\PRINCI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65203}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65203/devtoo..., se:cdpVersion: 120.0.6099.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 20a8f3d13fd26f3aa00e153f38e286fc
+Command: [6ea72eca18a51cf75710b743864e7f05, findElement {using=xpath, value=//i[@class='oxd-icon bi-pencil-fill']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.109, chrome: {chromedriverVersion: 120.0.6099.71 (9729082fe617..., userDataDir: C:\Users\PRINCI~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51848}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51848/devtoo..., se:cdpVersion: 120.0.6099.109, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6ea72eca18a51cf75710b743864e7f05
 at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -157,7 +94,7 @@ at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(Elemen
 at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:364)
 at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:358)
-at testcase.AdminPage.searchSystemUsers(AdminPage.java:26)
+at testcase.AdminPage.searchSystemUsers(AdminPage.java:30)
 at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
 at java.base/java.lang.reflect.Method.invoke(Method.java:580)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
@@ -192,15 +129,21 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
         </test-method> <!-- searchSystemUsers -->
       </class> <!-- testcase.AdminPage -->
       <class name="base.BaseTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:base.BaseTest@145f66e3]" started-at="2023-12-18T15:19:30 GMT" name="setUp" finished-at="2023-12-18T15:19:36 GMT" duration-ms="6073" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:base.BaseTest@692f203f]" started-at="2023-12-18T17:05:38 GMT" name="setUp" finished-at="2023-12-18T17:05:44 GMT" duration-ms="5886" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:base.BaseTest@145f66e3]" started-at="2023-12-18T15:24:12 GMT" name="tearDown" finished-at="2023-12-18T15:24:12 GMT" duration-ms="272" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:base.BaseTest@692f203f]" started-at="2023-12-18T17:09:22 GMT" name="tearDown" finished-at="2023-12-18T17:09:22 GMT" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- base.BaseTest -->
-    </test> <!-- Test -->
+      <class name="testcase.MyInfoPage">
+        <test-method signature="openMyInfoPage()[pri:1, instance:testcase.MyInfoPage@5fe94a96]" started-at="2023-12-18T17:09:21 GMT" name="openMyInfoPage" finished-at="2023-12-18T17:09:22 GMT" duration-ms="534" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMyInfoPage -->
+      </class> <!-- testcase.MyInfoPage -->
+    </test> <!--  Web Test -->
   </suite> <!-- Suite -->
 </testng-results>
