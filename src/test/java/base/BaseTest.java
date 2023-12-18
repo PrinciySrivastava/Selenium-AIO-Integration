@@ -14,7 +14,7 @@ public class BaseTest {
 	public static Properties prop = new Properties();
 	public static FileReader f1;
 
-	@BeforeTest (groups = {"OPAA-TC-224", "OPAA-TC-225", "OPAA-TC-226", "OPAA-TC-227", "OPAA-TC-228"})
+	@BeforeTest (groups = {"OPAA-TC-224", "OPAA-TC-225", "OPAA-TC-226", "OPAA-TC-227", "OPAA-TC-228", "OPAA-TC-240", "OPAA-TC-241"})
 	public void setUp() throws Exception {
 		if (driver == null) {
 			f1 = new FileReader(System.getProperty("user.dir") + "/src/test/resources/ConfigFiles/config.properties");
@@ -38,7 +38,7 @@ public class BaseTest {
 		
 	}
 	
-	@AfterTest(groups = {"OPAA-TC-224", "OPAA-TC-225", "OPAA-TC-226", "OPAA-TC-227", "OPAA-TC-228"})
+	@AfterTest(groups = {"OPAA-TC-224", "OPAA-TC-225", "OPAA-TC-226", "OPAA-TC-227", "OPAA-TC-228", "OPAA-TC-240", "OPAA-TC-241"})
 	public void tearDown() throws Exception {
 	driver.quit();
 	}
