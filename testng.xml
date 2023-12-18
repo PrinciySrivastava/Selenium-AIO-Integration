@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test name="Web Test">
-      <groups>
-		  <run>
-			  <include name = "OPAA-TC-224" />
-			  <include name = "OPAA-TC-225" />
-			  <include name = "OPAA-TC-226" />
-			  <include name = "OPAA-TC-227" />
-			  <include name = "OPAA-TC-228" />
-			  <include name = "OPAA-TC-240" />
-			  <include name = "OPAA-TC-241" />
-		  </run>
-	  </groups>
-    <classes>
-      <class name="base.BaseTest"/>
-      <class name="testcase.LoginPage"/>
-      <class name="testcase.AdminPage"/>
-    </classes>
-  </test> <!-- Test -->
+	<test name=" Web Test">
+		<groups>
+			<run>
+				<include name="OPAA-TC-224" />
+				<include name="OPAA-TC-225" />
+				<include name="OPAA-TC-226" />
+				<include name="OPAA-TC-227" />
+				<include name="OPAA-TC-228" />
+				<include name="OPAA-TC-240" />
+				<include name="OPAA-TC-241" />
+				<include name="OPAA-TC-242" />
+			</run>
+		</groups>
+		<classes>
+			<class name="base.BaseTest" />
+			<class name="testcase.LoginPage" />
+			<class name="testcase.AdminPage" />
+			<class name="testcase.MyInfoPage" />
+		</classes>
+	</test> <!-- Test -->
 </suite> <!-- Suite -->
-
-
